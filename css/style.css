@@ -1,0 +1,562 @@
+.homepagebg {
+   background: #000;
+   background-image: url(../images/hero-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 30px;
+}
+
+.sechombf {
+   height: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.secentertop a , .seleftmenutob a , .seleftmenubootm a , .secentertop2 a{
+   text-transform: uppercase;
+   background: rgb(255, 85, 0);
+  background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+  color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+.secentertop{
+   text-align: center;
+   font-family: 'PT Sans Caption';
+   font-size: 18px;
+   font-style: normal;
+  padding-bottom: 50px;
+}
+.secentertop2{
+   text-align: center;
+   font-family: 'PT Sans Caption';
+   font-size: 18px;
+   font-style: normal;
+   padding-top: 50px;
+}
+.seleftmenutob{
+ text-align: center;
+ font-family: 'PT Sans Caption';
+   font-size: 18px;
+   font-style: normal;
+   text-transform: uppercase;
+   padding-top: 80px;
+}
+.seleftmenubootm{
+text-align: center;
+font-family: 'PT Sans Caption';
+   font-size: 18px;
+   font-style: normal;
+   text-transform: uppercase;
+   padding-bottom: 50px;
+}
+.secmobile{
+   display: none;
+}
+.secddcon{
+   display: flex   ;
+       flex-direction: column;
+       justify-content: space-between;
+   }
+.hero-bg {
+   background-color: #000;
+}
+
+a.navbar-brand {
+   padding-left: 15px;
+}
+
+.seclogow {
+   width: 70%;
+}
+
+a.navbar-brand {
+   padding: 0;
+}
+
+.sec-menu-bgg {
+   height: 92px;
+}
+
+.navbar-expand-xl .navbar-nav {
+   flex-direction: row;
+   display: flex;
+   justify-content: flex-end !important;
+   padding-top: 11px;
+}
+
+nav.navbar.navbar-expand-xl.navbar-dark {
+   padding: 0;
+   margin: 0;
+}
+
+.headermenusec {
+   color: #fff;
+   font-family: 'PT Sans Caption';
+   font-size: 18px;
+   font-style: normal;
+   text-transform: uppercase;
+   font-weight: 500;
+   padding: 15px 30px !important;
+}
+
+.headermenusec span {
+   background: rgb(255, 85, 0);
+   background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+   color: transparent;
+   background-clip: text;
+}
+
+.headermenusec:hover {
+   background: rgb(255, 85, 0);
+   background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+   color: transparent;
+   background-clip: text;
+}
+
+.headermenusec2btn {
+   margin-top: 11px;
+   background: rgb(255, 85, 0);
+   background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+   border-radius: 40px;
+   display: inline-flex;
+   padding: 10px 35px 10px 35px !important;
+   color: #FFF;
+   text-align: center;
+   font-family: 'PT Sans Caption';
+   text-transform: uppercase;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+}
+
+.headermenusec2btn:hover {
+   color: #fff;
+   background: rgb(255, 192, 0);
+   background: linear-gradient(0deg, rgba(255, 192, 0, 1) 0%, rgba(255, 85, 0, 1) 100%);
+}
+
+.secwhitpad2 {
+   background-color: #1D1D1D;
+   padding: 0;
+}
+
+/* whatsapp */
+a {
+   text-decoration: none !important;
+}
+
+.floating_btn {
+   position: fixed;
+   right: 0;
+   bottom: 0px;
+   width: 100px;
+   height: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   z-index: 1000;
+}
+
+@keyframes pulsing {
+   to {
+      box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+   }
+}
+
+.contact_icon {
+   background-color: #42db87;
+   color: #fff;
+   width: 60px;
+   height: 60px;
+   font-size: 30px;
+   border-radius: 50px;
+   text-align: center;
+   box-shadow: 2px 2px 3px #999;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transform: translatey(0px);
+   animation: pulse 1.5s infinite;
+   box-shadow: 0 0 0 0 #42db87;
+   -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+   -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+   -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+   animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+   font-weight: normal;
+   font-family: sans-serif;
+   text-decoration: none !important;
+   transition: all 300ms ease-in-out;
+}
+
+.text_icon {
+   margin-top: 8px;
+   color: #707070;
+   font-size: 13px;
+}
+
+/* whatsapp end */
+
+
+/* back to top */
+#button {
+   display: inline-block;
+   background: rgb(220, 11, 11);
+   background: linear-gradient(0deg, rgba(220, 11, 11, 1) 0%, rgba(252, 158, 8, 1) 100%);
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   border-radius: 50px;
+   position: fixed;
+   bottom: 10px;
+   left: 30px;
+   transition: background-color .3s,
+      opacity .5s, visibility .5s;
+   opacity: 0;
+   visibility: hidden;
+   z-index: 1000;
+}
+
+#button::after {
+   content: "\f077";
+   font-family: FontAwesome;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 2em;
+   line-height: 50px;
+   color: #fff;
+}
+
+#button:hover {
+   cursor: pointer;
+   background-color: #333;
+}
+
+#button:active {
+   background-color: #555;
+}
+
+#button.show {
+   opacity: 1;
+   visibility: visible;
+}
+
+.content {
+   width: 77%;
+   margin: 50px auto;
+   font-family: 'Merriweather', serif;
+   font-size: 17px;
+   color: #6c767a;
+   line-height: 1.9;
+}
+
+@media (min-width: 500px) {
+   .content {
+      width: 43%;
+   }
+
+   #button {
+      margin: 30px;
+   }
+}
+
+p.secdiet img {
+   padding-bottom: 10px;
+}
+
+.content h1 {
+   margin-bottom: -10px;
+   color: #03a9f4;
+   line-height: 1.5;
+}
+
+.content h3 {
+   font-style: italic;
+   color: #96a2a7;
+}
+
+/* back to top-end */
+
+.secherbg1 {
+   background: #000;
+   background-image: url(../images/hero-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 30px;
+   height: 500px;
+   position: relative;
+}
+
+.secherbg1 h1 {
+   font-family: 'PT Sans Caption';
+   text-transform: uppercase;
+   font-size: 60px;
+   color: #fff;
+   font-weight: 900;
+   text-align: center;
+
+}
+
+.secherbg1 h1 span {
+   border: 1px solid #fff;
+   border-radius: 5px;
+   padding: 0px 10px;
+
+}
+
+.secherbg1 h1::after {
+   content: "";
+   position: absolute;
+   background-image: url(../images/hero-text-left-arrow.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   top: 0;
+   left: 0;
+   z-index: 999;
+}
+
+.aboutbg2{
+   background-image: url(../images/aboutbggimg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+.heaname h2{
+   font-family: 'PT Sans Caption';
+   text-transform:capitalize;
+   font-size: 60px;
+   color: #fff;
+   font-weight: 700;
+   text-align: center;
+   padding: 80px 10px 280px 10px;
+}
+.marrabout{
+   background-color: #000;
+   padding-bottom: 50px;
+}
+.secabouttext h3 {
+   font-family: 'PT Sans Caption';
+   font-size: 25px;
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+.secabouttext p {
+   color: #fff;
+   font-family: "PT Sans Caption";
+   font-size: 16px;
+}
+.secvisbgg {
+   background-color: #25201B;
+   padding: 50px 100px;
+}
+.secvisintext {
+   font-family: 'PT Sans Caption';
+   font-size: 60px;
+   color: #fff;
+   font-weight: 700;
+}
+.secvisintext2 {
+   color: #fff;
+   font-family: "PT Sans Caption";
+   font-size: 18px;
+}
+.secvisintext2 i{
+   background: rgb(255, 85, 0);
+   background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+   color: transparent;
+   background-clip: text;
+}
+.foundd-bgg {
+   background-color: #000;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 60px 100px;
+}
+.foundd-bgg2 {
+   background-image: url(../images/Founderbg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 60px 0px;
+}
+.flodbackmargin {
+   background: #000;
+   padding: 40px;
+   margin-left: -100px !important;
+   margin: 60px 40px 40px 40px;
+}
+.flodbackmargin h2 {
+   font-family: 'PT Sans Caption';
+   font-size: 40px;
+   color: #fff;
+   font-weight: 500;
+}
+.flodbackmargin p {
+   color: #fff;
+   font-family: "Questrial";
+   font-size: 18px;
+}
+.secffbg{
+   background-color: #313131;
+   padding: 50px 10px;
+}
+.secffftext{
+   font-family: 'PT Sans Caption';
+   font-size: 50px;
+   font-weight: 700;
+   text-align: center;
+   background: rgb(255, 85, 0);
+   background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+   color: transparent;
+   background-clip: text;
+}
+.secclapad{
+   padding-bottom: 40px;
+}
+
+
+.img-container {
+   overflow: hidden;
+   position: relative;
+}
+
+.img-container img {
+   transition: all 1s;
+   width: 100%;
+}
+
+.img-container figcaption {
+   display: block;
+   position: absolute;
+   bottom: -41px;
+   /* top: -40px; */
+   height: 40px;
+   width: 100%;
+   padding: 0px 15px;
+   background: rgb(220,11,11);
+   background: linear-gradient(0deg, rgba(220,11,11,1) 0%, rgba(252,158,8,1) 100%);
+   border-bottom: 2px solid #444;
+   transition: all .2s;
+}
+
+.img-container:hover figcaption {
+   bottom: -3px;
+   height: 186px;
+   /* top: 20px; */
+}
+
+.img-container:hover img {
+   transform: scale(1.2);
+   opacity: .4;
+}
+
+.secgyntext {
+   background-color: #0000007a;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   padding: 10px;
+}
+
+.secgyntext h4 {
+   font-family: 'PT Sans Caption';
+   font-size: 20px;
+   color: #FFF;
+   font-weight: 700;
+}
+
+.img-container:hover .secgyntext {
+   bottom: -70px;
+}
+
+.secheaddhove {
+   font-family: 'PT Sans Caption';
+   font-size: 19px;
+   font-weight: 700;
+   color: #FFF;
+   padding-top: 15px;
+   margin: 0;
+   padding-bottom: 15px;
+   
+}
+
+.sectexthov {
+   font-family: 'PT Sans Caption';
+   font-size: 16px;
+   color: #FFF;
+}
+
+
+.seclinhov {
+   font-family: 'PT Sans Caption';
+   font-size: 14px;
+   color: #141414;
+   padding: 8px 20px;
+   background-color: #fff;
+   border: 1px solid #D20202;
+   border-radius: 20px;
+}
+
+.seclinhov:hover {
+   text-decoration: none;
+   color: #141414;
+}
+.secourbg{
+   background-color: #000;
+   padding: 50px 10px 150px 10px;
+}
+.secwhat h2{
+   text-align: center;
+}
+.secwhat{
+   font-family: 'PT Sans Caption';
+   font-size: 50px;
+   font-weight: 700;
+   color: #fff;
+   text-align: center;
+}
+.secwhat span{
+   color: #000;
+   font-size: 50px;
+   -webkit-text-stroke: 2px #fff;
+}
+.secrevbg{
+   background: #5F5F5F;
+   padding: 10px 10px;
+   border-radius: 30px;
+}
+.secrrll{
+   padding-left: 0;
+}
+.secrrrig2{
+   padding-right: 0;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secrrrig{
+   padding-right: 0;
+}
+.secrrrig{
+   color: #FFC000;
+   display: flex   ;
+       align-items: center;
+}
+.secrecname{
+   font-family: 'PT Sans Caption';
+   color: #fff;
+   font-weight: 600;
+   font-size: 15px;
+   margin: 0;
+}
+.secreenapad{
+   font-family: 'PT Sans Caption';
+   color: #fff;
+   font-size: 10px;
+}
+.secrevbg h5{
+   font-family: 'PT Sans Caption';
+   color: #fff;
+   font-size: 16px;
+}

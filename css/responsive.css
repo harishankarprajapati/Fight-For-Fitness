@@ -1,0 +1,195 @@
+/* -------1920--------- */
+
+@media only screen and (min-width:1920px) {
+
+  .container-fluid {
+    width: 1903px;
+    margin: auto;
+  }
+
+}
+
+
+
+@media only screen and (max-width:1024px) {
+
+}
+
+
+
+
+/*  */
+@media only screen and (max-width:999px) {
+
+}
+
+
+@media only screen and (max-width:768px) {
+  .sec-logo-img {
+    width: 50%;
+  }
+  .secfootermenu li {
+    padding-bottom: 20px;
+}
+  .secrrww {
+    display: flex;
+    flex-direction: row;
+}
+
+  .seclogow {
+    width: 30% !important;
+}
+  .navbar-expand-xl .navbar-nav {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-end !important;
+  }
+  .secwhitpad {
+    width: 100% !important;
+  }
+  .paddhero2 {
+    padding-top: 10px !important;
+    padding: 0px;
+  }
+  .paddhero {
+    padding-top: 170px;
+  }
+  .sechertext {
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+  }
+  .sechertext h1 {
+    font-size: 30px;
+  }
+  .sechertext p {
+    font-family: 'Space Grotesk';
+    color: #fff;
+    font-size: 15px;
+  }
+  .secbtnhero a {
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.secbtnhero {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+  .container-fluid.py-0.sec-menu-bgg {
+    padding: 0;
+}
+  .secmodihid {
+    display: none;
+  }
+
+  a.navbar-brand {
+    width: 77% !important;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  button.navbar-toggler {
+    background: rgb(220,11,11);
+    background: linear-gradient(0deg, rgba(220,11,11,1) 0%, rgba(252,158,8,1) 100%);
+    margin-top: 17px;
+    height: 45px;
+    padding: 13px 15px;
+
+  }
+  .secwhitpad2 {
+    padding: 0px;
+}
+.secpasd{
+ padding: 0;
+}
+
+  .offcanvas-header {
+    background: #000;
+  }
+
+  .headermenusec {
+    color: #000;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 40px;
+    font-size: 18px !important; 
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+
+  .desktopsec{
+    display: none;
+  }
+  .secmobile{
+    display: block;
+ }
+.secmenihome1 a , .secmenihome2 a , .secmenihome3 a , .secmenihome4 a , .secmenihome5 a , .secmenihome6 a{
+  text-transform: uppercase;
+   background: rgb(255, 85, 0);
+  background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+  color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  font-family: 'PT Sans Caption';
+  font-size: 18px;
+  font-style: normal;
+}
+.secmenihome1 {
+  padding-top: 40px;
+}
+.secmenihome2 , .secmenihome4 , .secmenihome6{
+  text-align: end;
+}
+
+.secmenihome1  , .secmenihome4 {
+
+}
+
+.secmenihome2 {
+
+}
+
+
+
+
+}
+
+@media only screen and (max-width:430px) {
+  .sechertext h1 {
+    font-size: 37px;
+}
+.secrrww {
+  display: flex;
+  flex-direction: column;
+}
+.secworktext {
+  font-size: 8px !important;
+}
+.seclogow {
+  width: 57% !important;
+}
+.navbar-nav>li>a {
+  line-height: 20px;
+  padding-left: 10px !important;
+}
+}
+@media only screen and (max-width:320px) {
+
+.seclogow {
+  width: 78% !important;
+}
+.secwhitpad2 {
+  margin-top: -5px;
+  padding-top: 0px;
+}
+
+}
+
