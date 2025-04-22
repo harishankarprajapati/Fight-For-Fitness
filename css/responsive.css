@@ -149,6 +149,38 @@
   text-align: end;
 }
 
+.newsletter-section {
+  flex-direction: column;
+  text-align: center;
+}
+.newsletter-form {
+  flex-direction: column;
+  align-items: stretch;
+}
+.newsletter-text h2 span {
+   font-size: 24px;
+   -webkit-text-stroke: 0.3px #fff;
+}
+.newsletter-text h2{
+font-size: 24px;
+}
+.newsletter-img {
+flex: 1 1 300px;
+text-align: center;
+margin-top: -100px;
+margin-left: 0px;
+}
+.newsletter-img img {
+max-width: 100%;
+height: auto;
+width: 100%;
+}  
+.btnmmie {
+margin-left: 0px;
+}
+
+
+
 .secmenihome1  , .secmenihome4 {
 
 }
@@ -156,8 +188,6 @@
 .secmenihome2 {
 
 }
-
-
 
 
 }
