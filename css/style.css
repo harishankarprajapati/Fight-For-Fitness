@@ -12,52 +12,63 @@
    flex-direction: column;
    justify-content: center;
 }
-.secentertop a , .seleftmenutob a , .seleftmenubootm a , .secentertop2 a{
+
+.secentertop a,
+.seleftmenutob a,
+.seleftmenubootm a,
+.secentertop2 a {
    text-transform: uppercase;
    background: rgb(255, 85, 0);
-  background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
-  color: transparent;
-  background-clip: text;
-  font-weight: 600;
+   background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+   color: transparent;
+   background-clip: text;
+   font-weight: 600;
 }
-.secentertop{
+
+.secentertop {
    text-align: center;
    font-family: 'PT Sans Caption';
    font-size: 18px;
    font-style: normal;
-  padding-bottom: 50px;
+   padding-bottom: 50px;
 }
-.secentertop2{
+
+.secentertop2 {
    text-align: center;
    font-family: 'PT Sans Caption';
    font-size: 18px;
    font-style: normal;
    padding-top: 50px;
 }
-.seleftmenutob{
- text-align: center;
- font-family: 'PT Sans Caption';
+
+.seleftmenutob {
+   text-align: center;
+   font-family: 'PT Sans Caption';
    font-size: 18px;
    font-style: normal;
    text-transform: uppercase;
    padding-top: 80px;
 }
-.seleftmenubootm{
-text-align: center;
-font-family: 'PT Sans Caption';
+
+.seleftmenubootm {
+   text-align: center;
+   font-family: 'PT Sans Caption';
    font-size: 18px;
    font-style: normal;
    text-transform: uppercase;
    padding-bottom: 50px;
 }
-.secmobile{
+
+.secmobile {
    display: none;
 }
-.secddcon{
-   display: flex   ;
-       flex-direction: column;
-       justify-content: space-between;
-   }
+
+.secddcon {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
 .hero-bg {
    background-color: #000;
 }
@@ -93,11 +104,11 @@ nav.navbar.navbar-expand-xl.navbar-dark {
 .headermenusec {
    color: #fff;
    font-family: 'PT Sans Caption';
-   font-size: 18px;
+   font-size: 17px;
    font-style: normal;
    text-transform: uppercase;
    font-weight: 500;
-   padding: 15px 30px !important;
+   padding: 15px 21px !important;
 }
 
 .headermenusec span {
@@ -120,12 +131,12 @@ nav.navbar.navbar-expand-xl.navbar-dark {
    background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
    border-radius: 40px;
    display: inline-flex;
-   padding: 10px 35px 10px 35px !important;
+   padding: 10px 28px 10px 28px !important;
    color: #FFF;
    text-align: center;
    font-family: 'PT Sans Caption';
    text-transform: uppercase;
-   font-size: 16px;
+   font-size: 15px;
    font-style: normal;
    font-weight: 700;
 }
@@ -316,25 +327,28 @@ p.secdiet img {
    z-index: 999;
 }
 
-.aboutbg2{
+.aboutbg2 {
    background-image: url(../images/aboutbggimg.png);
    background-size: cover;
    background-repeat: no-repeat;
    background-position: bottom;
 }
-.heaname h2{
+
+.heaname h2 {
    font-family: 'PT Sans Caption';
-   text-transform:capitalize;
+   text-transform: capitalize;
    font-size: 60px;
    color: #fff;
    font-weight: 700;
    text-align: center;
    padding: 80px 10px 280px 10px;
 }
-.marrabout{
+
+.marrabout {
    background-color: #000;
    padding-bottom: 50px;
 }
+
 .secabouttext h3 {
    font-family: 'PT Sans Caption';
    font-size: 25px;
@@ -342,66 +356,78 @@ p.secdiet img {
    text-transform: uppercase;
    font-weight: 700;
 }
+
 .secabouttext p {
    color: #fff;
    font-family: "PT Sans Caption";
    font-size: 16px;
 }
+
 .secvisbgg {
    background-color: #25201B;
    padding: 50px 100px;
 }
+
 .secvisintext {
    font-family: 'PT Sans Caption';
    font-size: 60px;
    color: #fff;
    font-weight: 700;
 }
+
 .secvisintext2 {
    color: #fff;
    font-family: "PT Sans Caption";
    font-size: 18px;
 }
-.secvisintext2 i{
+
+.secvisintext2 i {
    background: rgb(255, 85, 0);
    background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
    color: transparent;
    background-clip: text;
 }
+
 .foundd-bgg {
    background-color: #000;
    background-repeat: no-repeat;
    background-size: cover;
    padding: 60px 100px;
 }
+
 .foundd-bgg2 {
    background-image: url(../images/Founderbg.png);
    background-repeat: no-repeat;
    background-size: cover;
    padding: 60px 0px;
 }
+
 .flodbackmargin {
    background: #000;
    padding: 40px;
    margin-left: -100px !important;
    margin: 60px 40px 40px 40px;
 }
+
 .flodbackmargin h2 {
    font-family: 'PT Sans Caption';
    font-size: 40px;
    color: #fff;
    font-weight: 500;
 }
+
 .flodbackmargin p {
    color: #fff;
    font-family: "Questrial";
    font-size: 18px;
 }
-.secffbg{
+
+.secffbg {
    background-color: #313131;
    padding: 50px 10px;
 }
-.secffftext{
+
+.secffftext {
    font-family: 'PT Sans Caption';
    font-size: 50px;
    font-weight: 700;
@@ -411,7 +437,8 @@ p.secdiet img {
    color: transparent;
    background-clip: text;
 }
-.secclapad{
+
+.secclapad {
    padding-bottom: 40px;
 }
 
@@ -434,8 +461,8 @@ p.secdiet img {
    height: 40px;
    width: 100%;
    padding: 0px 15px;
-   background: rgb(220,11,11);
-   background: linear-gradient(0deg, rgba(220,11,11,1) 0%, rgba(252,158,8,1) 100%);
+   background: rgb(220, 11, 11);
+   background: linear-gradient(0deg, rgba(220, 11, 11, 1) 0%, rgba(252, 158, 8, 1) 100%);
    border-bottom: 2px solid #444;
    transition: all .2s;
 }
@@ -478,7 +505,7 @@ p.secdiet img {
    padding-top: 15px;
    margin: 0;
    padding-bottom: 15px;
-   
+
 }
 
 .sectexthov {
@@ -502,77 +529,93 @@ p.secdiet img {
    text-decoration: none;
    color: #141414;
 }
-.secourbg{
+
+.secourbg {
    background-color: #000;
    padding: 50px 10px 100px 10px;
 }
-.secwhat h2{
+
+.secwhat h2 {
    text-align: center;
 }
-.secwhat{
+
+.secwhat {
    font-family: 'PT Sans Caption';
    font-size: 50px;
    font-weight: 700;
    color: #fff;
    text-align: center;
 }
-.secwhat span{
+
+.secwhat span {
    color: #000;
    font-size: 50px;
    -webkit-text-stroke: 2px #fff;
 }
-.secrevbg{
+
+.secrevbg {
    background: #5F5F5F;
    padding: 10px 10px;
    border-radius: 30px;
 }
-.secrrll{
+
+.secrrll {
    padding-left: 0;
 }
-.secrrrig2{
+
+.secrrrig2 {
    padding-right: 0;
    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   flex-direction: column;
+   justify-content: center;
 }
-.secrrrig{
+
+.secrrrig {
    padding-right: 0;
 }
-.secrrrig{
+
+.secrrrig {
    color: #FFC000;
-   display: flex   ;
-       align-items: center;
+   display: flex;
+   align-items: center;
 }
-.secrecname{
+
+.secrecname {
    font-family: 'PT Sans Caption';
    color: #fff;
    font-weight: 600;
    font-size: 15px;
    margin: 0;
 }
-.secreenapad{
+
+.secreenapad {
    font-family: 'PT Sans Caption';
    color: #fff;
    font-size: 10px;
 }
-.secrevbg h5{
+
+.secrevbg h5 {
    font-family: 'PT Sans Caption';
    color: #fff;
    font-size: 15px;
 }
-.reviw .owl-nav{
+
+.reviw .owl-nav {
    display: none;
 }
+
 .reviw button.owl-dot {
-   background:#fff ;
+   background: #fff;
    height: 10px;
    margin-left: 10px;
 }
+
 .reviw button.owl-dot.active {
    background: rgb(255, 85, 0);
    background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
    height: 10px;
 }
+
 .reviw .owl-dots {
    text-align: center;
    padding-top: 20px;
@@ -589,29 +632,34 @@ p.secdiet img {
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
- }
- .newsletter-text {
+}
+
+.newsletter-text {
    flex: 1 1 300px;
- }
- .newsletter-text h2 {
+}
+
+.newsletter-text h2 {
    font-family: 'PT Sans Caption';
    font-size: 50px;
    font-weight: 700;
    color: #fff;
- }
- .newsletter-text h2 span {
+}
+
+.newsletter-text h2 span {
    display: block;
    color: #000;
    font-size: 50px;
    -webkit-text-stroke: 2px #fff;
- }
- .newsletter-form {
+}
+
+.newsletter-form {
    flex: 1 1 300px;
    display: flex;
    gap: 10px;
    margin-top: 15px;
- }
- .newsletter-form input {
+}
+
+.newsletter-form input {
    flex-grow: 1;
    border-radius: 25px;
    border: none;
@@ -619,12 +667,14 @@ p.secdiet img {
    font-size: 14px;
    background-color: #d9d9d98e;
    color: #fff;
- }
- button.btnmmie {
+}
+
+button.btnmmie {
    margin-top: 10px;
    margin-bottom: 10px;
 }
- .newsletter-form button {
+
+.newsletter-form button {
    background: linear-gradient(to right, orange, #ff6600);
    border: none;
    border-radius: 25px;
@@ -632,109 +682,442 @@ p.secdiet img {
    color: white;
    font-weight: bold;
    cursor: pointer;
- }
- .newsletter-img {
+}
+
+.newsletter-img {
    flex: 1 1 300px;
    text-align: center;
    margin-top: -100px;
    margin-left: -157px;
- }
- .newsletter-img img {
+}
+
+.newsletter-img img {
    max-width: 100%;
    height: auto;
    width: 56%;
- }
- .newsbgg{
+}
+
+.newsbgg {
    background-color: #000;
- }
-.btnmmie{
+}
+
+.btnmmie {
    margin-left: -130px;
 }
-.revimg{
+
+.revimg {
    width: 60% !important;
 }
-.secfooterbg{
+
+.secfooterbg {
    background: #D9D9D9;
    padding: 50px;
 }
-.secparg{
+
+.secparg {
    font-family: 'PT Sans Caption';
    font-size: 16px;
    color: #5F5F5F;
    padding-top: 20px;
 }
-.secsocalmedia{
+
+.secsocalmedia {
    display: flex;
 }
-.secsocalmedia p{
-margin-top: 15px;
-border: 1px solid #000;
-border-radius: 50px;
+
+.secsocalmedia p {
+   margin-top: 15px;
+   border: 1px solid #000;
+   border-radius: 50px;
 }
-.socicm1{
-   padding: 10px  14px;
+
+.socicm1 {
+   padding: 10px 14px;
 }
-.socicm2{
-   padding: 10px  14px;
+
+.socicm2 {
+   padding: 10px 14px;
    margin-left: 15px;
 }
-.socicm3{
-   padding: 10px  12px;
+
+.socicm3 {
+   padding: 10px 12px;
    margin-left: 15px;
 }
-.socicm4{
-   padding: 10px  16px;
+
+.socicm4 {
+   padding: 10px 16px;
    margin-left: 15px;
 }
-.secsocalmedia p a{
-font-size: 16px;
-color: #000;
+
+.secsocalmedia p a {
+   font-size: 16px;
+   color: #000;
 }
+
 .secsocalmedia p:hover {
    background: rgb(255, 85, 0);
-    background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
-    border: 1px solid #fff;
+   background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+   border: 1px solid #fff;
 }
+
 .secsocalmedia p:hover a {
    color: #fff;
 }
-.secfhead{
+
+.secfhead {
    font-family: 'PT Sans Caption';
    font-size: 16px;
    font-weight: 600;
    color: #000;
 }
-.secfooti{
+
+.secfooti {
    font-family: 'PT Sans Caption';
    font-size: 15px;
    font-weight: 600;
    color: #000;
 }
-.fotalink a{
+
+.fotalink a {
    font-family: 'PT Sans Caption';
    font-size: 15px;
    color: #5F5F5F;
 }
-.fotalink2 a{
+
+.fotalink2 a {
    font-family: 'PT Sans Caption';
    font-size: 15px;
    color: #000;
 }
-.secaddress2{
+
+.secaddress2 {
    padding-top: 60px;
 }
-.srcmail{
+
+.srcmail {
    padding-top: 20px;
 }
-.secmailtex{
+
+.secmailtex {
    font-family: 'PT Sans Caption';
    font-size: 15px;
    color: #000;
    font-weight: 600;
 }
-.secmailtex a{
+
+.secmailtex a {
    font-family: 'PT Sans Caption';
    font-size: 15px;
    color: #5F5F5F;
    font-weight: 400;
 }
+
+/* martial-arts */
+.aboutbg3 {
+   background-image: url(../images/martial-arts-bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+
+.martartsec {
+   background-color: #000;
+   padding-bottom: 50px;
+}
+
+.secartbox {
+   background-color: #ECF2F3;
+   padding: 20px;
+   border-radius: 20px;
+   margin-bottom: 30px;
+}
+
+.artboximg img {
+   border-radius: 20px;
+}
+
+.martarts2 {
+   margin-top: -190px;
+}
+
+.artboxtext h4 {
+   margin-bottom: 0;
+   font-family: 'PT Sans Caption';
+   font-size: 20px;
+   font-weight: 600;
+   text-transform: capitalize;
+   color: #000;
+}
+
+.artboxtext p {
+   margin-bottom: 0;
+   font-family: 'PT Sans Caption';
+   font-size: 16px;
+   font-weight: 600;
+   text-transform: capitalize;
+   color: #000;
+}
+.secpadbo{
+   padding-top: 20px;
+}
+.secddff {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+   align-items: flex-end;
+}
+.secpavb{
+   padding-top: 20px;
+}
+.secddff a{
+   background: rgb(255, 85, 0);
+   background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+   padding: 18px 21px;
+   border-radius: 50px;
+   color: #fff;
+   font-weight: 600;
+}
+.secddff a:hover{
+   background: rgb(255, 192, 0);
+   background: linear-gradient(0deg, rgba(255, 192, 0, 1) 0%, rgba(255, 85, 0, 1) 100%);
+}
+/* gallery */
+.gallerysecbg{
+   background-image: url(../images/gallerybgg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top;
+}
+
+.gallery_container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 80px 10px;
+}
+
+
+.gallery_item {
+   margin-bottom: 5px;
+   overflow: hidden;
+}
+
+.popup-gallery a {
+   display: block;
+   width: 100%;   
+   overflow: hidden;
+   transition: transform 0.3s ease, border-color 0.3s ease;
+   padding-bottom: 20px;
+}
+
+.popup-gallery a:hover {
+   transform: scale(1.05);
+   border-color: #fff;
+}
+
+.popup-gallery img {
+   display: block;
+   width: 100%;
+   object-fit: cover;
+   min-height: 250px;
+   max-height: 250px;
+}
+
+.singicon_btn_nlf {
+   position: absolute;
+   top: 44%;
+   bottom: 56%;
+   left: 44%;
+   right: 56%;
+   opacity: 0;
+}
+
+.singicon_btn_nlf svg {
+   color: #fff;
+}
+
+.popup-gallery a:hover .singicon_btn_nlf {
+   opacity: 1;
+}
+
+.hover_affect_nlf:hover img {
+   opacity: 0.5;
+}
+
+/* gallery end */
+
+
+
+/* contact us */
+
+
+.secandclass22{
+   background-color: #000;
+   padding-bottom: 50px;
+}
+
+.sec-cont-hh {
+   font-family: 'PT Sans Caption';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   color: #fff;
+}
+.sec-cont-pp {
+   font-family: 'PT Sans Caption';
+   font-weight: 400;
+   font-size: 18px;
+   color: #fff;
+   padding-bottom: 20px;
+}
+.form-group label {
+   color: #fff;
+}
+.sec-menu-btn2 {
+   background: rgb(220,11,11);
+      background: linear-gradient(0deg, rgba(220,11,11,1) 0%, rgba(252,158,8,1) 100%);
+   font-family: 'PT Sans Caption';
+   font-style: normal;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 24px;
+   color: #fff;
+   padding: 15px 30px;
+   border: none;
+}
+.sec-menu-btn2:hover {
+   background: rgb(252,158,8);
+   background: linear-gradient(0deg, rgba(252,158,8,1) 0%, rgba(220,11,11,1) 100%);
+   color: #fff;
+}
+.contbgg {
+   background: #fff;
+   padding: 20px;
+}
+.seccont-add-h {
+   font-family: 'PT Sans Caption';
+   font-size: 18px;
+   line-height: 150%;
+   font-weight: 700;
+   color: #000000;
+}
+.seccont-add-h span i {
+   color: #F67627;
+}
+.seccont-add-p {
+   font-family: 'PT Sans Caption';
+   font-weight: 400;
+   font-size: 16px;
+   color: #5F5F5F;
+   text-decoration: none;
+}
+.iconsc span i {
+   color: #F67627;
+}
+.sec-cont-hh2 {
+   font-family: 'PT Sans Caption';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   color: #000;
+}
+.sec404bg{
+   margin-top: -300px;
+}
+.ffgggcc {
+   padding: 0;
+}
+.ffgggcc2{
+   padding-right: 0px;
+}
+
+/* eventdetals */
+.eventdetbg {
+   background-image: url(../images/bgeventdetas.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+.secimgdd{
+   padding-top: 50px;
+}
+.secdetasec{
+   padding-top: 40px;
+}
+.secdetasec h4{
+   font-family: 'PT Sans Caption';
+   font-weight: 400;
+   font-size: 25px;
+   color: #fff;
+}
+.secdetasec p{
+   font-family: 'PT Sans Caption';
+   font-weight: 400;
+   font-size: 16px;
+   color: #fff;
+}
+
+/* price */
+.secmemberbg {
+   background-color: #fff;
+   padding: 40px 30px;
+}
+.secmemberbg h2 {
+   font-family: 'PT Sans Caption';
+   font-size: 50px;
+   text-align: center;
+   color: #000;
+   font-weight: 700;
+}
+.secmemberbg h4 {
+   color: #F67627;
+   font-size: 20px;
+   font-weight: 700;
+   font-family: 'PT Sans Caption';
+   text-align: center;
+   padding-bottom: 10px;
+}
+.secmemberbg p {
+   color: #000;
+   font-size: 16px;
+   font-weight: 500;
+   font-family: 'PT Sans Caption';
+}
+.secmemberbg p span {
+   color: #F67627;
+   font-size: 20px;
+   font-weight: 700;
+   font-family: 'PT Sans Caption';
+}
+.secptagemember {
+   padding: 20px 0px 60px 0px;
+}
+.secmemberbtn {
+   text-align: center;
+   padding-bottom: 30px;
+}
+.secmemberbtn a {
+   background: rgb(220, 11, 11);
+   background: linear-gradient(0deg, rgba(220, 11, 11, 1) 0%, rgba(252, 158, 8, 1) 100%);
+   padding: 15px 30px;
+   color: #fff;
+   font-size: 20px;
+   font-weight: 600;
+   font-family: 'PT Sans Caption';
+   text-decoration: none;
+   text-transform: uppercase;
+   border-radius: 10px;
+}
+.secmemberbtn a:hover {
+   background: rgb(252, 158, 8);
+   background: linear-gradient(0deg, rgba(252, 158, 8, 1) 0%, rgba(220, 11, 11, 1) 100%);
+}
+
+
+
+
+
+
+
