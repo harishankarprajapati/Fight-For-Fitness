@@ -159,7 +159,7 @@ a {
 
 .floating_btn {
    position: fixed;
-   right: 0;
+   left: 0;
    bottom: 0px;
    width: 100px;
    height: 100px;
@@ -221,7 +221,7 @@ a {
    border-radius: 50px;
    position: fixed;
    bottom: 10px;
-   left: 30px;
+   right: 30px;
    transition: background-color .3s,
       opacity .5s, visibility .5s;
    opacity: 0;
