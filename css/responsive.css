@@ -507,7 +507,6 @@ button.btnmmie {
 .flodbackmargin h2 {
   font-size: 30px;
 }
-
 .newsletter-img {
   flex: 1 1 300px;
   text-align: center;
@@ -558,3 +557,19 @@ button.btnmmie {
 
 }
 
+
+@media only screen and (max-width:320px) {
+  .newsletter-text h2 {
+    font-size: 30px;
+}
+.seclogow {
+  width: 78% !important;
+}
+.secwhitpad2 {
+  margin-top: -5px;
+  padding-top: 0px;
+}
+.flodbackmargin h2 {
+  font-size: 25px;
+}
+}
