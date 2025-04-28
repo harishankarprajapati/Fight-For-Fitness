@@ -707,6 +707,7 @@ button.btnmmie {
 
 .revimg {
    width: 60% !important;
+   border-radius: 50px;
 }
 
 .secfooterbg {
@@ -1063,17 +1064,22 @@ button.btnmmie {
 .secmemberbg {
    background-color: #fff;
    padding: 40px 30px;
+   margin-bottom: 30px;
+   height: 480px;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .secmemberbg h2 {
    font-family: 'PT Sans Caption';
-   font-size: 50px;
+   font-size: 40px;
    text-align: center;
    color: #000;
    font-weight: 700;
 }
 .secmemberbg h4 {
    color: #F67627;
-   font-size: 20px;
+   font-size: 17px;
    font-weight: 700;
    font-family: 'PT Sans Caption';
    text-align: center;
@@ -1115,8 +1121,16 @@ button.btnmmie {
    background: linear-gradient(0deg, rgba(252, 158, 8, 1) 0%, rgba(220, 11, 11, 1) 100%);
 }
 
-
-
+/* price */
+.secheaddpp h2{
+   font-family: 'PT Sans Caption';
+   font-size: 60px;
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   font-weight: 700;
+   padding-bottom: 20px;
+}
 
 
 

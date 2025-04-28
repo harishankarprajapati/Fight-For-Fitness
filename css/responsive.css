@@ -136,6 +136,7 @@
 }
 .secmemberbg {
   margin-bottom: 40px;
+
 }
 .sechombf {
   height: 984px;
@@ -421,6 +422,7 @@ button.btnmmie {
 .secmemberbg {
   padding: 40px 20px;
   margin-bottom: 40px;
+  height: auto;
 }
 .secmemberbg p {
   color: #000;
@@ -438,6 +440,9 @@ button.btnmmie {
 }
 .contbgg {
   margin-top: 50px;
+}
+.secheaddpp h2{
+  font-size: 25px;
 }
 }
 
