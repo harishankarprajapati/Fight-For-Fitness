@@ -704,6 +704,17 @@ button.btnmmie {
 .btnmmie {
    margin-left: -130px;
 }
+.secdetasec h3{
+   font-family: 'PT Sans Caption';
+   font-size: 35px;
+   font-weight: 600;
+   color: #fff;
+}
+.secdetasec ul li{
+   font-family: 'PT Sans Caption';
+   font-size: 16px;
+   color: #fff;
+}
 
 .revimg {
    width: 60% !important;
