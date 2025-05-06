@@ -1142,7 +1142,48 @@ button.btnmmie {
    font-weight: 700;
    padding-bottom: 20px;
 }
+/* our product */
+.secprobg{
 
+   border-radius: 20px;
+   padding: 20px 20px 30px 20px;
+   border-width: 4px;
+   border-style: solid;
+   border-image: linear-gradient(0deg, rgba(252, 158, 8, 1) 0%, rgba(220, 11, 11, 1) 100%) 1;
+   height: 240px;
+}
+.secprobg h3{
+   font-size: 50px;
+  
+}
+.secprobg h4{
+   font-family: 'PT Sans Caption';
+   font-size: 17px;
+   color: #fff;
+}
+.secprobg p{
+   font-family: 'PT Sans Caption';
+   font-size: 14px;
+   color: #fff;
+}
+.our .owl-nav{
+   display: none;
+}
 
+.our button.owl-dot {
+   background: #fff;
+   height: 10px;
+   margin-left: 10px;
+}
 
+.our button.owl-dot.active {
+   background: rgb(255, 85, 0);
+   background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
+   height: 10px;
+}
+
+.our .owl-dots {
+   text-align: center;
+   padding-top: 20px;
+}
 
