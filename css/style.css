@@ -553,11 +553,11 @@ p.secdiet img {
    -webkit-text-stroke: 2px #fff;
 }
 
-.secrevbg {
+/* .secrevbg {
    background: #5F5F5F;
    padding: 10px 10px;
    border-radius: 30px;
-}
+} */
 
 .secrrll {
    padding-left: 0;
@@ -570,21 +570,24 @@ p.secdiet img {
    justify-content: center;
 }
 
-.secrrrig {
-   padding-right: 0;
-}
+
 
 .secrrrig {
    color: #FFC000;
    display: flex;
    align-items: center;
+   font-size: 23px;
+}
+.secrrrig i{
+   padding-right: 10px;
 }
 
 .secrecname {
    font-family: 'PT Sans Caption';
    color: #fff;
    font-weight: 600;
-   font-size: 15px;
+   font-size: 18px;
+   padding-top: 20px;
    margin: 0;
 }
 
@@ -597,7 +600,7 @@ p.secdiet img {
 .secrevbg h5 {
    font-family: 'PT Sans Caption';
    color: #fff;
-   font-size: 15px;
+   font-size: 18px;
 }
 
 .reviw .owl-nav {
@@ -606,14 +609,15 @@ p.secdiet img {
 
 .reviw button.owl-dot {
    background: #fff;
-   height: 10px;
+   height: 7px;
    margin-left: 10px;
+   border-radius: 50px;
 }
 
 .reviw button.owl-dot.active {
    background: rgb(255, 85, 0);
    background: linear-gradient(0deg, rgba(255, 85, 0, 1) 0%, rgba(255, 192, 0, 1) 100%);
-   height: 10px;
+  
 }
 
 .reviw .owl-dots {
@@ -1301,5 +1305,18 @@ button.btnmmie {
  }
  .employee:hover > .employee-details .employee-social-link ul li{
    bottom:250px;
+ }
+ /* Testimonials */
+ .sectestimbg{
+background-image: url(../images/Testimonials-bg.jpg);
+background-position: top;
+background-size: cover;
+padding: 50px;
+/* height: 500px; */
+ }
+ .bckgsec{
+   background-color: #000;
+   border-top:5px solid #F67627 ;
+   padding: 50px 50px;
  }
  

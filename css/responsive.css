@@ -159,6 +159,12 @@
 
 
 @media only screen and (max-width:768px) {
+  .sectestimbg{
+    padding: 10px;
+  }
+  .bckgsec {
+    padding: 10px;
+}
   .sec-logo-img {
     width: 50%;
   }
