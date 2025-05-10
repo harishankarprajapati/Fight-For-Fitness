@@ -709,6 +709,7 @@ button.btnmmie {
    font-size: 35px;
    font-weight: 600;
    color: #fff;
+   margin-top: 0;
 }
 .secdetasec ul li{
    font-family: 'PT Sans Caption';
@@ -1052,9 +1053,9 @@ button.btnmmie {
    background-repeat: no-repeat;
    background-position: bottom;
 }
-.secimgdd{
+/* .secimgdd{
    padding-top: 50px;
-}
+} */
 .secdetasec{
    padding-top: 40px;
 }
