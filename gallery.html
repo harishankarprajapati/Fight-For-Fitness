@@ -51,8 +51,8 @@
         href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Michroma&family=PT+Sans+Caption:wght@400;700&family=Phetsarath:wght@400;700&family=Questrial&family=Racing+Sans+One&family=Space+Grotesk:wght@300..700&display=swap"
         rel="stylesheet">
 
-        <!-- gallery -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css"
+    <!-- gallery -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css"
         integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -64,6 +64,7 @@
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/js.js">
 </head>
 
 
@@ -74,109 +75,288 @@
         <div include-html="header.html" id="header-file"></div>
 
 
-             <!-- heading-name -->
-             <div class="container">
-                <div class="heaname">
-                    <h2>Gallery</h2>
-                </div>
-
+        <!-- heading-name -->
+        <div class="container">
+            <div class="heaname">
+                <h2>Gallery</h2>
             </div>
-    </div>
 
-    <!-- gallery -->
-    <div class="container-fluid martartsec">
-        <div class="container martarts2">
-            <div class="gallery_container">
-                <div class="popup-gallery row m-0">
-                    
-                    <div class="gallery_item col-md-4">
-                        <a class="hover_affect_nlf position-relative"
-                            href="images/galler-1.png"
-                            title="Image 1">
-                            <img src="images/galler-1.png"
-                                alt="">
-                        </a>
-                    </div>
-                    <div class="gallery_item col-md-4">
-                        <a class="hover_affect_nlf position-relative"
-                            href="images/galler-2.png"
-                            title="Image 2">
-                            <img src="images/galler-2.png"
-                                alt="">
-                        </a>
-                    </div>
-                    <div class="gallery_item col-md-4">
-                        <a class="hover_affect_nlf position-relative"
-                            href="images/galler-3.png"
-                            title="Image 3">
-                            <img src="images/galler-3.png"
-                                alt="">
-                        </a>
-                    </div>
-                    <div class="gallery_item col-md-4">
-                        <a class="hover_affect_nlf position-relative"
-                            href="images/galler-4.png"
-                            title="Image 4">
-                            <img src="images/galler-4.png"
-                                alt="">
-                        </a>
-                    </div>
-                    
-                    <div class="gallery_item col-md-4">
-                        <a class="hover_affect_nlf position-relative"
-                            href="images/galler-5.png"
-                            title="Image 5">
-                            <img src="images/galler-5.png"
-                                alt="">
-                        </a>
-                    </div>
-
-                    <div class="gallery_item col-md-4">
-                        <a class="hover_affect_nlf position-relative"
-                            href="images/galler-6.png"
-                            title="Image 6">
-                            <img src="images/galler-6.png"
-                                alt="">
-                        </a>
-                    </div>
-
-                    <div class="gallery_item col-md-4">
-                        <a class="hover_affect_nlf position-relative"
-                            href="images/galler-7.png"
-                            title="Image 7">
-                            <img src="images/galler-7.png"
-                                alt="">
-                        </a>
-                    </div>
-
-                    <div class="gallery_item col-md-4">
-                        <a class="hover_affect_nlf position-relative"
-                            href="images/galler-8.png"
-                            title="Image 8">
-                            <img src="images/galler-8.png"
-                                alt="">
-                        </a>
-                    </div>
-
-                    <div class="gallery_item col-md-4">
-                        <a class="hover_affect_nlf position-relative"
-                            href="images/galler-9.png"
-                            title="Image 9">
-                            <img src="images/galler-9.png"
-                                alt="">
-                        </a>
-                    </div>
-                    
-
-                 
-                </div>
-            </div>
-        
         </div>
     </div>
 
-      <!-- Newsletter  -->
-      <!-- <div class="container-fluid newsbgg">
+
+    <!-- gallery -->
+    <div class="container-fluid martartsec">
+
+        <div class="container martarts2 text-center ">
+            <meta name="viewport" content="width=device-width">
+            <input type="radio" name="filter" id="all" checked><label for="all">All</label>
+            <input type="radio" name="filter" id="q1st-Anniversary"><label for="q1st-Anniversary">1st
+                Anniversary</label>
+            <input type="radio" name="filter" id="Kids-Muay-Thai"><label for="Kids-Muay-Thai">Kids Muay Thai</label>
+            <input type="radio" name="filter" id="Kids-MMA"><label for="Kids-MMA">Kids MMA</label>
+            <input type="radio" name="filter" id="Fight-Event"><label for="Fight-Event">Fight Event</label>
+            <input type="radio" name="filter" id="Kids-BJJ"><label for="Kids-BJJ">Kids BJJ</label>
+            <input type="radio" name="filter" id="Adults-Grappling"><label for="Adults-Grappling">Adults
+                Grappling</label>
+            <input type="radio" name="filter" id="Grand-Opening"><label for="Grand-Opening">Grand Opening of BR</label>
+            <div class="gallery">
+                <!--  -->
+                <figure class="card q1st-Anniversary">
+                    <a href="images/Anniversary-gallery-1.JPG" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Anniversary-gallery-1.JPG" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card q1st-Anniversary">
+                    <a href="images/Anniversary-gallery-2.JPG" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Anniversary-gallery-2.JPG" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card q1st-Anniversary">
+                    <a href="images/Anniversary-gallery-3.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Anniversary-gallery-3.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card q1st-Anniversary">
+                    <a href="images/Anniversary-gallery-4.JPG" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Anniversary-gallery-4.JPG" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card q1st-Anniversary">
+                    <a href="images/Anniversary-gallery-5.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Anniversary-gallery-5.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card q1st-Anniversary">
+                    <a href="images/Anniversary-gallery-6.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Anniversary-gallery-6.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card q1st-Anniversary">
+                    <a href="images/Anniversary-gallery-7.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Anniversary-gallery-7.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card q1st-Anniversary">
+                    <a href="images/Anniversary-gallery-8.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Anniversary-gallery-8.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card q1st-Anniversary">
+                    <a href="images/Anniversary-gallery-9.JPG" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Anniversary-gallery-9.JPG" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card q1st-Anniversary">
+                    <a href="images/Anniversary-gallery-10.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Anniversary-gallery-10.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-Muay-Thai">
+                    <a href="images/mu-gallary1.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/mu-gallary1.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-Muay-Thai">
+                    <a href="images/mu-gallary2.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/mu-gallary2.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-Muay-Thai">
+                    <a href="images/mu-gallary3.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/mu-gallary3.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-Muay-Thai">
+                    <a href="images/mu-gallary4.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/mu-gallary4.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-MMA">
+                    <a href="images/mma-galery-1.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/mma-galery-1.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-MMA">
+                    <a href="images/mma-galery-2.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/mma-galery-2.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-MMA">
+                    <a href="images/mma-galery-3.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/mma-galery-3.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-MMA">
+                    <a href="images/mma-galery-4.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/mma-galery-4.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Fight-Event">
+                    <a href="images/event-gallery-1.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/event-gallery-1.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Fight-Event">
+                    <a href="images/event-gallery-2.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/event-gallery-2.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-BJJ">
+                    <a href="images/bjj-gallery-1.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/bjj-gallery-1.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-BJJ">
+                    <a href="images/bjj-gallery-2.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/bjj-gallery-2.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-BJJ">
+                    <a href="images/bjj-gallery-3.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/bjj-gallery-3.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-BJJ">
+                    <a href="images/bjj-gallery-4.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/bjj-gallery-4.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Kids-BJJ">
+                    <a href="images/bjj-gallery-5.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/bjj-gallery-5.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Adults-Grappling">
+                    <a href="images/Adults-gallery-1.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Adults-gallery-1.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Adults-Grappling">
+                    <a href="images/Adults-gallery-2.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Adults-gallery-2.jpg" alt="">
+                      </a>
+                </figure>
+                <!--  -->
+                <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-1.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-1.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-2.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-2.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-3.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-3.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-4.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-4.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-5.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-5.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-6.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-6.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-7.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-7.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-8.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-8.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-9.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-9.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-10.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-10.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-11.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-11.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-12.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-12.jpg" alt="">
+                      </a>
+                </figure>
+                 <!--  -->
+                 <figure class="card Grand-Opening">
+                    <a href="images/Grand-gallery-13.jpg" class="popup-gallery">
+                        <img class="card_image" loading="lazy" src="images/Grand-gallery-13.jpg" alt="">
+                      </a>
+                </figure>
+               
+
+
+
+
+
+
+            </div>
+        </div>
+        <!-- <div class="donate">
+          <p>Help me with a <a href="https://www.paypal.com/donate/?hosted_button_id=NZ9Z8YDHSMMEC" target="_blank" rel="noopener">donation in Paypal</a></p>
+      </div> -->
+    </div>
+
+    <!-- Newsletter  -->
+    <!-- <div class="container-fluid newsbgg">
         <section class=" newsletter-section">
             <div class="newsletter-img">
                 <img src="images/news-img.png" alt="Martial Arts" />
@@ -198,46 +378,41 @@
     <!-- footer -->
     <div include-html="footer.html" id="footer-file"></div>
 
-    
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-    crossorigin="anonymous"></script>
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
 
-<script src="js/owl.carousel.min.js" type="text/javascript"></script>
-<script src="js/include-html.min.js"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/include-html.min.js"></script>
 
-<!-- gallery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <!-- gallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
 
-<script>
-    // popup-gallery
-    jQuery(document).ready(function ($) {
-        $(".popup-gallery").magnificPopup({
-            delegate: "a",
-            type: "image",
-            tLoading: "Loading image #%curr%...",
-            mainClass: "mfp-img-mobile",
+    <script>
+        $(document).ready(function () {
+          $('.popup-gallery').magnificPopup({
+            type: 'image',
             gallery: {
-                enabled: true,
-                navigateByImgClick: true,
-                preload: [0, 1] // Preload previous and next images
+              enabled: true,
+              navigateByImgClick: true,
+              preload: [0, 1]
             },
             image: {
-                tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                titleSrc: function (item) {
-                    return item.el.attr("title") || "";
-                }
+              titleSrc: 'alt'
             }
+          });
         });
-    });
 
-</script>
-   
+        
+      </script>
+      
+
 </body>
 
 </html>

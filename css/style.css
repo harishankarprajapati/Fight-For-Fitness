@@ -469,7 +469,7 @@ p.secdiet img {
 
 .img-container:hover figcaption {
    bottom: -3px;
-   height: 186px;
+   height: 70px;
    /* top: 20px; */
 }
 
@@ -933,14 +933,6 @@ button.btnmmie {
    border-color: #fff;
 }
 
-.popup-gallery img {
-   display: block;
-   width: 100%;
-   object-fit: cover;
-   min-height: 250px;
-   max-height: 250px;
-}
-
 .singicon_btn_nlf {
    position: absolute;
    top: 44%;
@@ -1320,3 +1312,94 @@ padding: 50px;
    padding: 50px 50px;
  }
  
+ /* gallery */
+
+[type="radio"]{
+  display: none;
+}
+label{
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.martarts2 [type="radio"] + label{
+background: #fff;
+text-align: center;
+font-family: 'PT Sans Caption';
+}
+[type="radio"]:checked + label{
+   background: rgb(220, 11, 11);
+   background: linear-gradient(0deg, rgba(220, 11, 11, 1) 0%, rgba(252, 158, 8, 1) 100%);
+   color: #fff;
+}
+
+[type="radio"]:nth-of-type(2):checked ~ .gallery .card:not(.q1st-Anniversary),
+[type="radio"]:nth-of-type(3):checked ~ .gallery .card:not(.Kids-Muay-Thai),
+[type="radio"]:nth-of-type(4):checked ~ .gallery .card:not(.Kids-MMA),
+[type="radio"]:nth-of-type(5):checked ~ .gallery .card:not(.Fight-Event),
+[type="radio"]:nth-of-type(6):checked ~ .gallery .card:not(.Kids-BJJ),
+[type="radio"]:nth-of-type(7):checked ~ .gallery .card:not(.Adults-Grappling),
+[type="radio"]:nth-of-type(8):checked ~ .gallery .card:not(.Grand-Opening)
+{
+  display: none;
+}
+
+.gallery{
+  display: grid;
+	justify-content: center;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+.card{
+  margin: 0;
+  background:transparent;
+  border-radius: 18px;
+  padding: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.35s;
+}
+.card:hover{
+  box-shadow: 0 0 25px #0009;
+}
+.card_image{
+  width: 100%;
+  object-fit: cover;
+  height: 285px;
+}
+.card__caption{
+	font-weight: bold;
+  font-variant: small-caps;
+  padding: 0.5rem;
+  text-align: center;
+  color: gold;
+}
+
+/* Donate layer */
+.donate{
+	position: fixed;
+	bottom: 0.25rem;
+	right: 0.25rem; 
+	border-radius: 0.5rem;
+	background-color: whitesmoke;
+	padding: 0 1rem;
+	font-weight: bold;
+	color: dimgray;
+}
+.donate a{
+	text-decoration: none;
+	color: orangered;
+	border-bottom: 2px solid transparent;
+	transition: 0.35s;
+}
+.donate a:hover{
+	border-bottom-color: orangered;
+}
+
+.popup-gallery img {
+   display: block;
+   width: 100%;
+   object-fit: cover;
+}
